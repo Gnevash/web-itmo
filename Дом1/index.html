@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+ 
+    h1.main {
+        font-size: 32pt;
+        font-style: italic;
+        color: white;
+    }
+    div {
+        color: #FFFFE0;
+        font-size: 12pt;
+        background-image: url(1MfL9B5vU8U.jpg);
+        background-size: cover;
+
+    }
+
+    legend.cool{
+        font-size: 28pt;
+        font-style: italic;
+        color: white;
+    }
+
+    #special{
+        font-style: italic;
+    }
+
+    #serd {
+        position: absolute; right: 70%;
+        margin-bottom: 50px;
+    }
+    
+
+    h1::first-letter { font-size: 72pt; }
+
+
+
+</style> 
+</head>
+
+<meta charset="utf-8"/>
+<body>
+
+<form>
+
+<div><h1 class="main"> Форма регистрации на сайте мероприятия</h1>
+<fieldset>
+
+ <legend class="cool"> Контактная информация</legend>
+ 
+ <from action="form_processing" method ="GET">
+
+
+    Ваше имя:   <input id="serd" type="text" name="lastname">
+    <br>
+    <br>
+    Ваш email: <input id="serd" type="text" name="email">
+    <br>
+    <br>
+    Возраст:    <input id="serd" type="number" name="age" min="12" step="1">
+    <br>
+    <br>
+    Пол:        
+    <select name="gender">
+        <option checked>Не выбрано</option>
+        <option value="male">Мужской</option>
+        <option value="female">Женский</option>
+    </select>
+    </fieldset>
+
+<fieldset>
+
+ <legend class="cool"> Информация для мероприятия</legend>
+
+    <input type="hidden" name="user_id" value="15515151551">
+    <br>
+    <br>
+    Роль:
+    <br> 
+    <input type="radio" name="status" value="uch">Участник
+    <br>
+    <input type="radio" name="status" value="jud">Судья 
+    <br>
+    <input type="radio" name="status" value="vol">Волонтер 
+
+    <br><br>
+    <label id="special"> Напишите свои пожелания на данное мероприятие: </label>
+    <br>
+    <textarea rows="5" cols="50"></textarea>
+    
+
+<br>
+    <br>
+
+<input  type="submit" name="submit" value="Отправить">
+ </fieldset>
+</div>
+
+</form>
+
+
+</body>
+</html>
