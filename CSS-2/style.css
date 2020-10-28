@@ -1,0 +1,65 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+.content {
+	color: white;
+	background: rgb(2,0,32);
+	background: linear-gradient(90deg, rgba(2,0,32,1) 0%, rgba(19,19,68,1) 24%, rgba(41,95,106,1) 100%);
+	padding: 20px;
+	padding-bottom: 40px;
+}
+
+.writer-img {
+	width: 60px;
+	float: left;
+	margin-right: 20px;
+}
+
+.byline {
+	text-transform: uppercase;
+	color: #aeaeae;
+	font-family: Open Sans;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 80px;
+}
+
+h2 {
+	width: 60vw;
+	color: #aeaeae;
+	border-bottom: 1px solid #aeaeae;
+	padding-bottom: 20px;
+}
+
+p {
+	font-family: Open Sans;
+}
+
+.image {
+	background: url('images/soccer.jpeg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+	margin-top: -20px;
+	position: relative;
+}
+
+.caption {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	background: #eaeaea;
+	opacity: .86;
+	padding: 10px;
+	font-family: serif;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	max-width: 60vw;
+}

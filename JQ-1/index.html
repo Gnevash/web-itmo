@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Type" content="text/html"/>
+		<script src="jquery-3.5.1.min.js"></script>
+	</head>
+ 	<body>
+		
+		<p class="text"><a href="https://ru.wikipedia.org/wiki/Текст" target="_blank">Текст</a></p>
+		<p class="text">Текст - это зафиксированная на каком-либо материальном носителе человеческая мысль; в общем плане связная и полная последовательность символов.
+		Существуют две основные трактовки понятия «текст»: имманентная (расширенная, философски нагруженная) и репрезентативная (более частная). Имманентный подход подразумевает отношение к тексту как к автономной реальности, нацеленность на выявление его внутренней структуры. Репрезентативный — рассмотрение текста как особой формы представления знаний о внешней тексту действительности.В лингвистике термин «текст» используется в широком значении, включая и образцы устной речи. Восприятие текста изучается в рамках лингвистики текста и психолингвистики. Так, например, И. Р. Гальперин определяет текст следующим образом: «Это письменное сообщение, объективированное в виде письменного документа, состоящее из ряда высказываний, объединённых разными типами лексической, грамматической и логической связи, имеющее определённый моральный характер, прагматическую установку и соответственно литературно обработанное»</p>
+		
+		<p class="letter"><a href="https://ru.wikipedia.org/wiki/Письмо" target="_self">Письмо</a></p>
+		<p class="letter">Письмо́ (в значении пересылаемое сообщение) — текст на бумаге или других материалах, используемый при переписке между двумя и более адресатами.</p>
+		
+		<h1>Форма регистрации</h1>
+	
+		<form class="form" action="form_proccessing" method="POST">
+	
+			Ваше имя: <input type="text" name="lastname"/>
+			<br>
+			Ваш email: <input type="text" name="email"/>
+			<br>
+	
+		</form>
+		
+		<br>
+		<br>
+		
+		<TABLE BORDER="2" CELLPADDING="20" CELLSPACING="0"> 
+		<tr>
+			<td>
+			<span>Какой-то текст, повествующий <br>о чём-то очень интересном</span>
+			<div style="display:none" id="panel">Или не очень...</div>
+			</td>
+			<td><input id="button1" type="button" value="Slide down" /></td>
+		</tr>
+		<tr>
+			<td><img id="img1" src="face.png" style="display:none"></td>
+			<td><input id="button2" type="button" value="Fade in" /></td>
+		</tr>
+		<tr>
+			<td><a href="https://www.google.com/">Google</a></td>
+			<td><input id="button3" type="button" value="Toggle" /></td>
+		</tr>
+		<tr>
+			<td id="animated" style="position:relative">Эхе-хе-хе-хе-хе</td> 
+			<td><input id="button4" type="button" value="Animate" /></td>
+		</tr>
+		<tr>
+			<td><input type="text" /></td>
+			<td><input id="button5" type="button" value="5" /></td>
+		</tr>
+		</table>
+		
+		<br>
+		<br>
+		
+		<input id="button6" type="button" value="Обновить страницу" />
+		<span id="some"></span>
+		
+		<br>
+		<br>
+		
+		
+		<input id="button7" type="button" value="Получить JSON" /><br>
+		<div id="some2"></div><br>
+
+		
+		<script src="task.js"></script>
+	</body>
+</html>
+
